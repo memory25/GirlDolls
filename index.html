@@ -12,178 +12,142 @@
 
 <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">Home</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#story_1">story_1</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#story_2">story_2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#story_3">story_3</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#story_4">story_4</a>
-          </li>
-        </ul>
-        <form class="form-inline mt-2 mt-md-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0 themeColor" type="submit">Go!</button>
-        </form>
-      </div>
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#story_1">story_1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#story_2">story_2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#story_3">story_3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#story_4">story_4</a>
+                </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 themeColor" type="submit">Go!</button>
+            </form>
+        </div>
     </nav>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="container">
-            <div class="carousel-caption d-none d-md-block text-left">
-              <img src="images/pic1.jpg" alt="" class="img-fluid">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2500">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <img class="d-block img-fluid" src="images/pic1.jpg" alt="First slide">
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="container">
-            <div class="carousel-caption d-none d-md-block">
-              <img src="images/pic2.jpg" alt="" class="img-fluid">
+            <div class="carousel-item">
+              <div class="container">
+                <img class="d-block img-fluid" src="images/pic2.jpg" alt="Second slide">
+              </div> 
             </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="container">
-            <div class="carousel-caption d-none d-md-block text-right">
-              <img src="images/pic3.png" alt="" class="img-fluid">
+            <div class="carousel-item">
+              <div class="container">
+                <img class="d-block img-fluid" src="images/pic3.png" alt="Third slide">
+              </div>
             </div>
-          </div>
         </div>
-      </div>
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
     </div>
-
-
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-
     <div class="container-fluid marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="images/pic4.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>人偶(小女孩)</h2>
-          <p>　　精緻美麗的人偶，大大的眼睛，美麗的臉龐就像有著生命一樣! 但卻不知道為何被遺棄在森林裡，後來被老爺爺跟老奶奶帶回家。</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="images/pic5.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>人偶師</h2>
-          <p>　　人偶(小女孩)的製作者，擁有著高超雕刻技巧，精湛細膩的工法與無與倫比的用心，製造出無數精美的人偶。因為想做出畢生的傑作而雕刻製作出人偶(小女孩)，但卻因為害怕而將她拋棄在森林。</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="images/pic6.jpg" width="140" height="140">
-          <h2>老夫婦</h2>
-          <p>　　住在森林裡，溫柔又慈祥的老夫婦。兩人曾經有一個女兒，但她在戰爭時去前線擔任護士而至今失去聯絡。令老夫婦傷心不已，容貌似乎與人偶(小女孩)非常相像。</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-      <div id="story_1" class="row featurette themeSectionColor sectionPadding">
-        <div class="col-md-7">
-          <p class="lead"><span class="featurette-heading">在</span>一個快樂的繁華小鎮上有一個手藝高超的人偶師，他雕刻的技巧細膩，總能把人偶雕刻的維妙維肖，就像隨時要活過來一般!人偶師有個夢想，就是想雕刻出自己一生中的傑作，
-於是他找了最好的木材，最柔軟的絲綢...等許多最上等的材料，並且比平常更加細膩的雕刻著，他日以繼夜的雕刻著，希望自己畢生的傑作是世界上最美好的人偶。
-終於，雕刻了好幾個月後，傑作完成了!!人偶師感動得看著眼前精緻且耀眼的人偶，那是多麼美麗且珍貴的藝術阿!!栩栩如生的少女臉龐，這是多麼令人心醉的美麗!他細心的擦拭人偶，內心充滿了愛與喜悅。
-把她擦拭的非常乾淨並且好好的放置在工作檯上後，人偶師坐在人偶前因為太過疲累而睡著了。這時，人偶的眼睛竟然散發出異常的光彩就像有了生命般!就像奇蹟降臨似的!人偶竟然眨動眼睛，活了過來!!!</p>
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="images/pic4.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2>人偶(小女孩)</h2>
+                <p>　　精緻美麗的人偶，大大的眼睛，美麗的臉龐就像有著生命一樣! 但卻不知道為何被遺棄在森林裡，後來被老爺爺跟老奶奶帶回家。</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="images/pic5.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2>人偶師</h2>
+                <p>　　人偶(小女孩)的製作者，擁有著高超雕刻技巧，精湛細膩的工法與無與倫比的用心，製造出無數精美的人偶。因為想做出畢生的傑作而雕刻製作出人偶(小女孩)，但卻因為害怕而將她拋棄在森林。</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="images/pic6.jpg" width="140" height="140">
+                <h2>老夫婦</h2>
+                <p>　　住在森林裡，溫柔又慈祥的老夫婦。兩人曾經有一個女兒，但她在戰爭時去前線擔任護士而至今失去聯絡。令老夫婦傷心不已，容貌似乎與人偶(小女孩)非常相像。</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="">
+        <!-- /.row -->
+        <!-- START THE FEATURETTES -->
+        <div id="story_1" class="row featurette themeSectionColor sectionPadding">
+            <div class="col-md-7">
+                <p class="lead"><span class="featurette-heading">在</span>一個快樂的繁華小鎮上有一個手藝高超的人偶師，他雕刻的技巧細膩，總能把人偶雕刻的維妙維肖，就像隨時要活過來一般!人偶師有個夢想，就是想雕刻出自己一生中的傑作， 於是他找了最好的木材，最柔軟的絲綢...等許多最上等的材料，並且比平常更加細膩的雕刻著，他日以繼夜的雕刻著，希望自己畢生的傑作是世界上最美好的人偶。 終於，雕刻了好幾個月後，傑作完成了!!人偶師感動得看著眼前精緻且耀眼的人偶，那是多麼美麗且珍貴的藝術阿!!栩栩如生的少女臉龐，這是多麼令人心醉的美麗!他細心的擦拭人偶，內心充滿了愛與喜悅。 把她擦拭的非常乾淨並且好好的放置在工作檯上後，人偶師坐在人偶前因為太過疲累而睡著了。這時，人偶的眼睛竟然散發出異常的光彩就像有了生命般!就像奇蹟降臨似的!人偶竟然眨動眼睛，活了過來!!!
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="">
+            </div>
         </div>
-      </div>
-
-
-      <div id="story_2" class="row featurette sectionPadding">
-        <div class="col-md-7 order-md-2">
-          <p class="lead"><span class="featurette-heading">她</span>就像嬰兒初次降臨人世般，對世界充滿好奇，她左看看右看看，摸了摸人偶師的頭髮，又拿起了手邊的雕刻刀左瞧右瞧，這時人偶師因為聽到細微的器具碰撞聲而醒來，一睜眼，竟看到活過來的人偶正拿著雕刻刀看著醒來的自己!!!!!
-人偶師大驚失色，自己做的人偶活了過來並且正拿著刀子望著自己!!莫非她想殺了我?! 人偶天真的眨了眨水亮的大眼睛，還不懂發生什麼事，人偶師迅速的奪走了人偶手中的雕刻刀然後用布蓋上人偶，迅速的把人偶包了起來。
-他心裡非常的害怕，非常的恐懼自己製作出來、竟然活過來的人偶!!他想著許多可怕的假設，害怕的直打哆嗦，他迅速的背起被包著的人偶奪門而出。
-人偶師跑了許久，終於來到位於小鎮外的一座森林，人偶師把人偶放到地上"一定要丟掉那人偶!丟了那活過來且想殺了我的人偶!"人偶師想著，看著地上的人偶，深深的吸了一口氣然後轉身離開。</p>
+        <div id="story_2" class="row featurette sectionPadding">
+            <div class="col-md-7 order-md-2">
+                <p class="lead"><span class="featurette-heading">她</span>就像嬰兒初次降臨人世般，對世界充滿好奇，她左看看右看看，摸了摸人偶師的頭髮，又拿起了手邊的雕刻刀左瞧右瞧，這時人偶師因為聽到細微的器具碰撞聲而醒來，一睜眼，竟看到活過來的人偶正拿著雕刻刀看著醒來的自己!!!!! 人偶師大驚失色，自己做的人偶活了過來並且正拿著刀子望著自己!!莫非她想殺了我?! 人偶天真的眨了眨水亮的大眼睛，還不懂發生什麼事，人偶師迅速的奪走了人偶手中的雕刻刀然後用布蓋上人偶，迅速的把人偶包了起來。 他心裡非常的害怕，非常的恐懼自己製作出來、竟然活過來的人偶!!他想著許多可怕的假設，害怕的直打哆嗦，他迅速的背起被包著的人偶奪門而出。 人偶師跑了許久，終於來到位於小鎮外的一座森林，人偶師把人偶放到地上"一定要丟掉那人偶!丟了那活過來且想殺了我的人偶!"人偶師想著，看著地上的人偶，深深的吸了一口氣然後轉身離開。
+                </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="">
+            </div>
         </div>
-        <div class="col-md-5 order-md-1">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="">
+        <div id="story_3" class="row featurette themeSectionColor sectionPadding">
+            <div class="col-md-7">
+                <p class="lead">
+                    <span class="featurette-heading">天</span>>空，下起了小雨。似乎也在悲嘆著這令人傷心的事。眼前一片黑暗，四周都是雨水...這裡是哪裡呢?我在...哪裡呢?人偶懵懂的抬頭，包覆的布滑落，人偶看到昔日雕刻著自己、愛著自己的人偶師現在竟然離她而去，人偶舉起了手想要挽留卻無奈人偶師已經越走越遠， "別走!!留下來!!別拋棄我!!我做錯了什麼呢...?"人偶絕望的放下了手，突然失去了力氣倒在被雨淋濕的泥土上，眼神不再靈動發光...人偶，失去了生命。
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="">
+            </div>
         </div>
-      </div>
-
-
-      <div id="story_3" class="row featurette themeSectionColor sectionPadding">
-        <div class="col-md-7">
-          <p class="lead">
-
-
-<span class="featurette-heading">天</span>>空，下起了小雨。似乎也在悲嘆著這令人傷心的事。眼前一片黑暗，四周都是雨水...這裡是哪裡呢?我在...哪裡呢?人偶懵懂的抬頭，包覆的布滑落，人偶看到昔日雕刻著自己、愛著自己的人偶師現在竟然離她而去，人偶舉起了手想要挽留卻無奈人偶師已經越走越遠，
-"別走!!留下來!!別拋棄我!!我做錯了什麼呢...?"人偶絕望的放下了手，突然失去了力氣倒在被雨淋濕的泥土上，眼神不再靈動發光...人偶，失去了生命。
-</p>
+        <div id="story_4" class="row featurette sectionPadding">
+            <div class="col-md-7 order-md-2">
+                <p class="lead"><span class="featurette-heading">過</span>了良久，一對住在森林小屋裡，進小鎮採買日常用品的夫婦路過了，他們看到地上的人偶，哎呀!!這麼精緻可愛的人偶怎麼會被遺棄在雨中呢?他們撿起了人偶，帶回了自己的家中。 畫面轉到了老夫婦的家中，家中既溫暖且充滿了溫馨的感覺，老夫婦把人偶擦拭乾淨，看著美麗的人偶覺得非常的喜歡，於是就把她放在餐廳的椅子上陪伴著他們。 一天，老婆婆擦拭著人偶，細細的看著那臉龐...老婆婆擦拭著的布突然掉落在地面，她的雙手不停的顫抖著...這臉龐!!這靈動的大眼...精緻的鼻子與粉嫩的嘴唇...多麼像阿!!!天阿!!這是多麼的像!像自己那失聯的女兒!! 斗大的淚珠璞簌簌的滑落老婆婆的臉頰，好想念女兒，我那珍愛的女兒...老婆婆悲痛的哭泣著。突然，一雙溫柔的手擦拭了老婆婆臉上的淚，人偶...又活了過來!!! 原來人偶會奇蹟似的擁有生命竟然是因為感受到愛!因為感受到自己被疼愛著、珍惜著而奇蹟似的活了過來!!老婆婆看了眼前幫她拭淚的人偶..."一定是女兒!!女兒回來了!!她變成人偶回到我們身邊了!!!" 老太太欣喜若狂!我的寶貝女兒!我人生的珍寶!!她竟然再次回到了我的身邊!感謝上帝!! 老婆婆大聲地叫著老爺爺:"老伴!!是女兒阿!!女兒回來了!!老伴!!快過來!!!" 小鳥歌唱，陽光燦爛，似乎一切都在為這美好而絢爛著，人偶真正的活過來了，擁有了真正的生命，變成了一位真正的女孩。與老爺爺老奶奶幸福的生活在一起，永遠永遠。
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="">
+            </div>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="">
-        </div>
-      </div>
-
-
-
-      <div id="story_4" class="row featurette sectionPadding">
-        <div class="col-md-7 order-md-2">
-          <p class="lead"><span class="featurette-heading">過</span>了良久，一對住在森林小屋裡，進小鎮採買日常用品的夫婦路過了，他們看到地上的人偶，哎呀!!這麼精緻可愛的人偶怎麼會被遺棄在雨中呢?他們撿起了人偶，帶回了自己的家中。
-畫面轉到了老夫婦的家中，家中既溫暖且充滿了溫馨的感覺，老夫婦把人偶擦拭乾淨，看著美麗的人偶覺得非常的喜歡，於是就把她放在餐廳的椅子上陪伴著他們。
-一天，老婆婆擦拭著人偶，細細的看著那臉龐...老婆婆擦拭著的布突然掉落在地面，她的雙手不停的顫抖著...這臉龐!!這靈動的大眼...精緻的鼻子與粉嫩的嘴唇...多麼像阿!!!天阿!!這是多麼的像!像自己那失聯的女兒!!
-斗大的淚珠璞簌簌的滑落老婆婆的臉頰，好想念女兒，我那珍愛的女兒...老婆婆悲痛的哭泣著。突然，一雙溫柔的手擦拭了老婆婆臉上的淚，人偶...又活了過來!!!
-原來人偶會奇蹟似的擁有生命竟然是因為感受到愛!因為感受到自己被疼愛著、珍惜著而奇蹟似的活了過來!!老婆婆看了眼前幫她拭淚的人偶..."一定是女兒!!女兒回來了!!她變成人偶回到我們身邊了!!!"
-老太太欣喜若狂!我的寶貝女兒!我人生的珍寶!!她竟然再次回到了我的身邊!感謝上帝!!   老婆婆大聲地叫著老爺爺:"老伴!!是女兒阿!!女兒回來了!!老伴!!快過來!!!"
-
-小鳥歌唱，陽光燦爛，似乎一切都在為這美好而絢爛著，人偶真正的活過來了，擁有了真正的生命，變成了一位真正的女孩。與老爺爺老奶奶幸福的生活在一起，永遠永遠。
-
-</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="">
-        </div>
-      </div>
-
-      <hr>
-
-      <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p class="text-center">&copy; Copyright 2017 Syuan &middot;</p>
-      </footer>
-
-    </div><!-- /.container -->
-
-     <script src="js/jquery-3.2.1.min.js"></script>
-     <script src="js/popper.min.js"></script>
+        <hr>
+        <!-- /END THE FEATURETTES -->
+        <!-- FOOTER -->
+        <footer>
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p class="text-center">&copy; Copyright 2017 Syuan &middot;</p>
+        </footer>
+    </div>
+    <!-- /.container -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
 </body>
